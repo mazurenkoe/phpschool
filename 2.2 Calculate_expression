@@ -5,5 +5,4 @@ $c = log10(100);
 
 $x = $a*$b / $c;
 echo "The answer is: " . $x;
-?>
 
