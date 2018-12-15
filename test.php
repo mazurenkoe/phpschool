@@ -1,22 +1,28 @@
-<?php
-$size = $argv[1];
+<?PHP
+$n = $m = 4;
 
-$myArray = [];
-$start = 1;
-for ($i = 0; $i < $size; $i++) {
-    for ($j = 0; $j < $size; $j++) {
-        if ($i % 2 == 0) {
-            $myArray[$i][$j] = $start++;
-        } else {
-            $myArray[$i][$size - $j - 1] = $start++;
+  $z=array();
+    $k=1;
+    for ($i=0; $i<$n; $i++)
+    {
+        for ($j=0; $j<$m; $j++)
+        {
+            if ($i%2 == 0)
+            {
+                $z[$i][$j]=$k++;
+            }
+            else
+            {
+                $z[$i][$m-$j-1]=$k++;
+            }
         }
+
     }
+    print_r ($z);
 
-}
+$myArrayT = array_transpose($z);
 
-$myArrayT = array_transpose($myArray);
-
-for ($i = 0; $i < $size; $i++) {
+for ($i = 0; $i < $n; $i++) {
     $string = implode($myArrayT[$i]);
     print_r($string);
     echo PHP_EOL;
