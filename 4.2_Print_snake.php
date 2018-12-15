@@ -1,6 +1,12 @@
 <?php
 $size = $argv[1];
 
+if (ctype_digit($argv[1]) == false) {
+    echo "Value mast be a positive integer";
+    echo PHP_EOL;
+    die;
+}
+
 $myArray = [];
 $start = 1;
 for ($i = 0; $i < $size; $i++) {
