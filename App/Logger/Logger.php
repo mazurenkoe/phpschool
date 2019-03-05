@@ -14,7 +14,6 @@ class Logger implements LoggerInterface
     {
         $date = date('Y-m-d H:i:s (T)');
         $file_path = __DIR__ . '/../../logs/apilogs.log';
-//        $file_path = $_SERVER["DOCUMENT_ROOT"] . "/logs/apilogs.log";
         $f = fopen($file_path, 'a');
         $err = '[' . $date . '] Error - ' . $errmsg . ' in ' . $pathToFile . ' on line ' . $line;
         fwrite($f, $err. PHP_EOL);
