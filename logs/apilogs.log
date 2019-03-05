@@ -1,0 +1,14 @@
+2019-03-05 12:56:02 (UTC) - Title can not be empty\r\n2019-03-05 12:56:53 (UTC) - Title can not be empty
+[2019-03-05 13:00:29 (UTC)] - Title can not be empty\n[2019-03-05 13:00:42 (UTC)] - Title can not be empty\n\n[2019-03-05 13:02:38 (UTC)] - Title can not be empty\n[2019-03-05 13:03:13 (UTC)] - Title can not be empty[2019-03-05 13:04:21 (UTC)] - Title can not be empty
+[2019-03-05 13:04:23 (UTC)] - Title can not be empty
+[2019-03-05 13:04:31 (UTC)] - Title can not be empty
+[2019-03-05 13:04:42 (UTC)] - Title can not be empty
+[2019-03-05 13:04:44 (UTC)] - Content can not be empty
+[2019-03-05 13:04:49 (UTC)] - Content can not be empty
+[2019-03-05 13:04:52 (UTC)] - Title can not be empty
+[2019-03-05 13:17:10 (UTC)] - Title can not be empty in /index.php
+[2019-03-05 13:19:51 (UTC)] - Title can not be empty in /app/public/index.php
+[2019-03-05 13:21:15 (UTC)] - Title can not be empty in /forms/create
+[2019-03-05 13:31:01 (UTC)] - Content can not be empty in /app/App/Controllers/FormController.phpon line42
+[2019-03-05 13:33:23 (UTC)] Error - Title can not be empty in /app/App/Controllers/FormController.php on line 38
+[2019-03-05 13:33:28 (UTC)] Error - Content can not be empty in /app/App/Controllers/FormController.php on line 42
